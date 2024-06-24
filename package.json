@@ -1,0 +1,19 @@
+{
+  "name": "@liushengfeng/arrays",
+  "version": "1.0.0",
+  "main": "build-spec.js",
+  "type": "module",
+  "scripts": {
+    "test": "jasmine"
+  },
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "devDependencies": {
+    "jasmine": "^5.1.0"
+  },
+  "publishConfig": {
+    "access": "public",
+    "registry": "https://registry.npmjs.org/"
+  }
+}
