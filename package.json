@@ -1,8 +1,12 @@
 {
   "name": "@liushengfeng/arrays",
   "version": "1.0.0",
-  "main": "build-spec.js",
+  "main": "index.js",
   "type": "module",
+  "exports": {
+    "default": "./index.js",
+    "import": "./index.js"
+  },
   "scripts": {
     "test": "jasmine"
   },

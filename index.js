@@ -24,14 +24,13 @@ export const Arrays = {
     /**
      * 从数组中移除值
      * @param {Array} values
-     * @param {any} value
+     * @param {...Array} removedValues
      */
-    remove(values, value) {
+    remove(values, ...removedValues) {
         if (Array.isArray(values)) {
-            const index = values.indexOf(value);
-            if (index > -1) {
-                values.splice(index, 1);
-            }
+            const result = values.filter(value => !removedValues.includes(value));
+            values.splice(0);
+            values.push(...result);
         }
     },
 
