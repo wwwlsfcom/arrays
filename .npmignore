@@ -1,5 +1,5 @@
 /node_modules/
 /.idea/
 /spec/
-./build-spec.js
-./karma.conf.cjs
+/build-spec.js
+/karma.conf.cjs
